@@ -13,7 +13,7 @@ heroku git:remote -a your-app-name
 4. Push code: `git push heroku main`
 
 # Usage:
-If you want to see what a game name gets converted to, visit [your-app.herokuapp.com.example/az?game=Your game name here](https://your-app.herokuapp.com.example/az?game=Your game name here)
+If you want to see what a game name gets converted to, visit [your-app.herokuapp.com.example/az?game=Your game name here](https://your-app.herokuapp.com.example/az?game=Your%20game%20name%20here)
 Or to get it as a variable name in a Streamlabs bot, use: `{readapi.https://your-app.herokuapp.com.example/az?game={channel.game}}`
 
 ## Examples
