@@ -40,6 +40,7 @@ def app(environ, start_response):
         game_name = sub(r'(\d+)', lambda m: toRoman(int(m.group(1))), game_name)
         game_name = sub(r'legendofzelda', 'TLOZ', game_name, flags=IGNORECASE)
         game_name = sub(r'ocarinaoftime', 'OoT', game_name, flags=IGNORECASE)
+        game_name = sub(r'finalfantasy', 'FF', game_name, flags=IGNORECASE)
         data = game_name
       except BaseException as err:
         try:
